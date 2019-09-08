@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+		<listener class-name="com.rachid.utilities.CustomListeners"></listener>
+	</listeners>
+	<!-->groups>
+		<run>
+			<exclude name="Smoke"></exclude>
+		</run>
+	</groups-->
+	<test name="Home Page Test">
+	
+	<groups>
+		<run>
+			<exclude name="Smoke"></exclude>
+		</run>
+	</groups>
+		<classes>
+			<class name="com.rachid.testcases.HomePageTest" />
+
+		</classes>
+	</test>
+
+	<test name="Login Test">
+	
+	<groups>
+		<run>
+			<exclude name="Smoke"></exclude>
+		</run>
+	</groups>
+		<classes>
+			<class name="com.rachid.testcases.LoginTest" />
+
+		</classes>
+	</test>
+
+
+
+	<test name="Practice Test">
+	<groups>
+		<run>
+			<exclude name="Smoke"></exclude>
+		</run>
+	</groups>
+		<classes>
+			<class name="com.rachid.testcases.PracticePageTest" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
