@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="Home Page Test"
-           tests="1"
+           tests="2"
            failures="0"
            errors="0"
            skipped="0"
-           time="0.042">
+           time="29.245">
   <properties />
   
   
-            <testcase name="homePageLogo" time="0.042" classname="com.rachid.testcases.HomePageTest" />
+            <testcase name="homePageLogo" time="0.066" classname="com.rachid.testcases.HomePageTest" />
+                <testcase name="quickLinksTest" time="29.179" classname="com.rachid.testcases.HomePageTest" />
       
 </testsuite>

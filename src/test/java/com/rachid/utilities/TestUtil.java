@@ -18,7 +18,7 @@ public class TestUtil  extends Base {
 	public static String screenshotPath;
 	public static String screenshotName;
 	
-	
+	//take screenshot
 	public static void captureScreenshot() throws IOException {
 		
 		Date d=new Date();
@@ -28,6 +28,7 @@ public class TestUtil  extends Base {
 		FileUtils.copyFile(srcFile, new File(System.getProperty("user.dir")+"\\target\\surefire-reports\\html\\" + screenshotName));
 	}
 	
+	//Reading data from excel
 	@DataProvider(name="dp")
 	public static Object[][] getData(Method m) {
 		
