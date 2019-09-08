@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.rachid.utilities.CustomListeners"/>
+  </listeners>
+  <test name="Practice Test(failed)">
+    <groups>
+      <run>
+        <exclude name="Smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.rachid.testcases.PracticePageTest">
+        <methods>
+          <include name="radioButnTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.rachid.testcases.PracticePageTest -->
+    </classes>
+  </test> <!-- Practice Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

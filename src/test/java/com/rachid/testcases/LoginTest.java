@@ -9,9 +9,11 @@ import com.rachid.utilities.TestUtil;
 
 
 public class LoginTest extends Base {
+	
+	//Testing login functionality
 	@Test(groups="Smoke",dataProviderClass=TestUtil.class,dataProvider= "dp")
 	public void loginTest(Hashtable<String,String>data) {
-
+		
 		click("loginLink_CSS");
 		type("emailAddress_ID",data.get("email"));
 		type("password_ID",data.get("password"));

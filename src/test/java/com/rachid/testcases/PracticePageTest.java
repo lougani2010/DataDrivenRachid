@@ -8,7 +8,7 @@ import com.rachid.base.Base;
 
 public class PracticePageTest extends Base {
 	
-	
+	//Testing checkbox
 	
 	@Test(groups="Regression")
 	public void checkboxTest() throws InterruptedException {

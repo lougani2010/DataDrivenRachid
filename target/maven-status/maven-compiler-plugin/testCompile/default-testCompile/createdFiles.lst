@@ -1,0 +1,9 @@
+com\rachid\utilities\ExcelReader.class
+com\rachid\testcases\PracticePageTest.class
+com\rachid\utilities\CustomListeners.class
+com\rachid\base\Base.class
+com\rachid\testcases\LoginTest.class
+com\rachid\utilities\ExtentManager.class
+com\rachid\rough\TestBase.class
+com\rachid\testcases\HomePageTest.class
+com\rachid\utilities\TestUtil.class

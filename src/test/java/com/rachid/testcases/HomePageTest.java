@@ -18,7 +18,7 @@ public class HomePageTest extends Base {
 		System.out.println("Inside home page test");
 		isElementPresent(By.xpath(OR.getProperty("pageLogo_XPATH")));
 	}
-	@Test(groups="Smoke")
+	@Test(groups="Regression")
 	public void quickLinksTest() throws InterruptedException {
 		
 		System.out.println(linksCount("quiclinks_XPATH"));
